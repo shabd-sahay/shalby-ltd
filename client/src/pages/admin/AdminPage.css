@@ -1,0 +1,24 @@
+
+.admin-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;/* Full width */
+  overflow-y: auto;
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 100%; /* Ensure full width */
+  margin-bottom: 30px;
+}
+
+/* Optional: Add margins to the body to prevent content from touching the edges */
+
+body {
+  margin: 0; /* Ensure no margins on the body to allow full width */
+}

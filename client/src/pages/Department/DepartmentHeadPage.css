@@ -1,0 +1,61 @@
+/* DepartmentHeadPage.css */
+.deptnamecont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .chart-container .recharts-wrapper {
+    overflow: visible;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  select {
+    margin: 20px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,5 @@
+# Client-side ignores
+/client/.env
+
+# Server-side ignores
+/server/.env

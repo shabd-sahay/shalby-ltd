@@ -1,0 +1,16 @@
+/* PieChartComponent.css */
+.pie-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+/* Adjust height based on your needs */
+  }
+  
+  .pie-chart {
+    width: 100%;
+   
+  }
+  
